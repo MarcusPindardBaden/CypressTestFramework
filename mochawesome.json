@@ -1,0 +1,417 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 11,
+    "passes": 10,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-09-25T15:34:13.723Z",
+    "end": "2020-09-25T15:35:25.573Z",
+    "duration": 45995,
+    "testsRegistered": 11,
+    "passPercent": 90.9090909090909,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "47e40acc-6c49-4a83-b700-19b2dc0d732b",
+      "title": "",
+      "fullFile": "cypress\\integration\\articles.feature",
+      "file": "cypress\\integration\\articles.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a29f9378-626a-4741-9f27-8c66211dc95f",
+          "title": "User tries to upload and delete articles",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User can publish a new article with all sections filled then delete it (example #1)",
+              "fullTitle": "User tries to upload and delete articles User can publish a new article with all sections filled then delete it (example #1)",
+              "timedOut": null,
+              "duration": 6201,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cccd1380-be4f-46c3-9ebf-6af4a698c837",
+              "parentUUID": "a29f9378-626a-4741-9f27-8c66211dc95f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User can publish an article without tags then delete it (example #1)",
+              "fullTitle": "User tries to upload and delete articles User can publish an article without tags then delete it (example #1)",
+              "timedOut": null,
+              "duration": 4760,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e74570e3-f305-419c-a06e-b8ce4fa549b8",
+              "parentUUID": "a29f9378-626a-4741-9f27-8c66211dc95f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User can't publish an article with a missing body, description or title (example #1)",
+              "fullTitle": "User tries to upload and delete articles User can't publish an article with a missing body, description or title (example #1)",
+              "timedOut": null,
+              "duration": 3418,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "639dfdfc-a803-4757-8764-6acd0fefe957",
+              "parentUUID": "a29f9378-626a-4741-9f27-8c66211dc95f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User can't publish an article with a missing body, description or title (example #2)",
+              "fullTitle": "User tries to upload and delete articles User can't publish an article with a missing body, description or title (example #2)",
+              "timedOut": null,
+              "duration": 3117,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "eb37ec2e-8e6e-4198-9686-725a959e2a2c",
+              "parentUUID": "a29f9378-626a-4741-9f27-8c66211dc95f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User can't publish an article with a missing body, description or title (example #3)",
+              "fullTitle": "User tries to upload and delete articles User can't publish an article with a missing body, description or title (example #3)",
+              "timedOut": null,
+              "duration": 3410,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "34c7d119-9ae0-4e06-a4b7-c40a2cb278c3",
+              "parentUUID": "a29f9378-626a-4741-9f27-8c66211dc95f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User cannot delete article they don't own (example #1)",
+              "fullTitle": "User tries to upload and delete articles User cannot delete article they don't own (example #1)",
+              "timedOut": null,
+              "duration": 6230,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "633fe847-45c4-4446-9619-85f6bdc7b378",
+              "parentUUID": "a29f9378-626a-4741-9f27-8c66211dc95f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cccd1380-be4f-46c3-9ebf-6af4a698c837",
+            "e74570e3-f305-419c-a06e-b8ce4fa549b8",
+            "639dfdfc-a803-4757-8764-6acd0fefe957",
+            "eb37ec2e-8e6e-4198-9686-725a959e2a2c",
+            "34c7d119-9ae0-4e06-a4b7-c40a2cb278c3",
+            "633fe847-45c4-4446-9619-85f6bdc7b378"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 27136,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "bc19a0d3-2f3d-425a-abb8-524d7fe4edba",
+      "title": "",
+      "fullFile": "cypress\\integration\\Login.feature",
+      "file": "cypress\\integration\\Login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2315571a-30d0-4771-b4c2-1ebbc02302bb",
+          "title": "User tries to log on to application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User can login correctly with right credentials then log back out (example #1)",
+              "fullTitle": "User tries to log on to application User can login correctly with right credentials then log back out (example #1)",
+              "timedOut": null,
+              "duration": 3336,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "312eb654-6eb5-4a56-92ad-25b75b204173",
+              "parentUUID": "2315571a-30d0-4771-b4c2-1ebbc02302bb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Valid error message appears with incorrect credentials entered (example #1)",
+              "fullTitle": "User tries to log on to application Valid error message appears with incorrect credentials entered (example #1)",
+              "timedOut": null,
+              "duration": 2688,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f6de5f40-ea3d-404a-a496-1e9b4b9be1f6",
+              "parentUUID": "2315571a-30d0-4771-b4c2-1ebbc02302bb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "312eb654-6eb5-4a56-92ad-25b75b204173",
+            "f6de5f40-ea3d-404a-a496-1e9b4b9be1f6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6024,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "920d4204-842f-4bb6-9781-2f57eff233f5",
+      "title": "",
+      "fullFile": "cypress\\integration\\UserProfile.feature",
+      "file": "cypress\\integration\\UserProfile.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8846128b-d069-497c-a41e-ba221527009f",
+          "title": "User updates features on their profile",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User can update their bio (example #1)",
+              "fullTitle": "User updates features on their profile User can update their bio (example #1)",
+              "timedOut": null,
+              "duration": 5250,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "bc6f3e0a-565b-4f77-a0ba-2ff0775be92d",
+              "parentUUID": "8846128b-d069-497c-a41e-ba221527009f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "User can clear their bio (example #1)",
+              "fullTitle": "User updates features on their profile User can clear their bio (example #1)",
+              "timedOut": null,
+              "duration": 3326,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d4f9ca9c-4afd-4c53-9b75-ee1794ce9250",
+              "parentUUID": "8846128b-d069-497c-a41e-ba221527009f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bc6f3e0a-565b-4f77-a0ba-2ff0775be92d",
+            "d4f9ca9c-4afd-4c53-9b75-ee1794ce9250"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8576,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "6aaa603e-d3ff-45e2-b351-8c368bc71dcd",
+      "title": "",
+      "fullFile": "cypress\\integration\\accessibility.feature",
+      "file": "cypress\\integration\\accessibility.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5dbfa452-bb50-411d-9a6d-aea0de3707d3",
+          "title": "There should be no accessibility bugs that appear on the pages",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User doesn't have any accessibility issues on the homepage (example #1)",
+              "fullTitle": "There should be no accessibility bugs that appear on the pages User doesn't have any accessibility issues on the homepage (example #1)",
+              "timedOut": null,
+              "duration": 4259,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "\"C:\\\\Users\\\\marcu\\\\Desktop\\\\ConvertrTestFramework\\\\cypress\\\\screenshots${\\n            Cypress.spec.name\\n        }${runnable.parent.title} -- User doesn't have any accessibility issues on the homepage (example #1) (failed).png\"",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: 5 accessibility violations were detected: expected 5 to equal 0",
+                "estack": "AssertionError: 5 accessibility violations were detected: expected 5 to equal 0\n    at Context.eval (http://localhost:4202/__cypress/tests?p=cypress\\support\\index.js:1829:443712)",
+                "diff": null
+              },
+              "uuid": "7db44510-862b-4831-9e1a-d73fe3365ef4",
+              "parentUUID": "5dbfa452-bb50-411d-9a6d-aea0de3707d3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "7db44510-862b-4831-9e1a-d73fe3365ef4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4259,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

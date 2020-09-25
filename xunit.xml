@@ -1,0 +1,4 @@
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Thu, 24 Sep 2020 15:48:32 GMT" time="6.116">
+<testcase classname="User tries to log on to application" name="User can login correctly with right credentials then log back out (example #1)" time="3.306"/>
+<testcase classname="User tries to log on to application" name="Valid error message appears with incorrect credentials entered (example #1)" time="2.738"/>
+</testsuite>
